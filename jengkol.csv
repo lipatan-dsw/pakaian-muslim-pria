@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Busana Muslim / Koko / Batik Pria - RYR 007 Murah,ryr-007,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Koko Casual Pria - RGS 076 Murah,rgs-076,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 007 Murah,ryr-007,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 007 Murah,ryr-007,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RYR 007 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RYR 007<br/>Warna : CREAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Koko Casual Pria - RGS 076 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 076<br/>Warna : HIJAU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = BAHAN : TRIDZI<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 007 Murah,ryr-007,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/ryr-007.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RYR 007,Rp 125.900,Rp 144.900,Rp 19.000,RYR 007,Baru
-Jual Busana Muslim / Koko / Batik Pria - RYR 011 Murah,ryr-011,"
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna HIJAU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-076.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RGS 076,Rp 185.900,Rp 152.900,Rp 167.900,RGS 076,Baru
+Jual Koko Casual Pria - RGS 046 Murah,rgs-046,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 011 Murah,ryr-011,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 011 Murah,ryr-011,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RYR 011 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RYR 011<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Koko Casual Pria - RGS 046 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 046<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 600 gram<br/>Info Lainnya = SARIMBIT DENGAN RGS 047<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 011 Murah,ryr-011,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna BIRU NAVY",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/ryr-011.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RYR 011,Rp 136.900,Rp 157.900,Rp 21.000,RYR 011,Baru
-Jual Busana Muslim / Koko / Batik Pria - RDH 053 Murah,rdh-053,"
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna BIRU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-046.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RGS 046,Rp 185.900,Rp 152.900,Rp 167.900,RGS 046,Baru
+Jual Sarimbit Casual Pria - RGS 038 Murah,rgs-038,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Busana Muslim / Koko / Batik Pria - RDH 053 Murah,rdh-053,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Busana Muslim / Koko / Batik Pria - RDH 053 Murah,rdh-053,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RDH 053 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RDH 053<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sarimbit Casual Pria - RGS 038 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 038<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 600 gram<br/>Info Lainnya = SARIMBIT DENGAN RGS 039<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,8 +184,8 @@ Jual Busana Muslim / Koko / Batik Pria - RDH 053 Murah,rdh-053,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rdh-053.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RDH 053,Rp 117.900,Rp 135.900,Rp 18.000,RDH 053,Baru
-Jual Busana Muslim / Koko / Batik Pria - RYR 010 Murah,ryr-010,"
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna BIRU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-038.jpg,-/-,-/-,-/-,-/-,-/-,Sarimbit Casual Pria - RGS 038,Rp 185.900,Rp 152.900,Rp 167.900,RGS 038,Baru
+Jual Sarimbit Casual Pria - RYR 016 Murah,ryr-016,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -210,7 +210,7 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 010 Murah,ryr-010,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -233,7 +233,7 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 010 Murah,ryr-010,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RYR 010 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RYR 010<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sarimbit Casual Pria - RYR 016 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RYR 016<br/>Warna : HITAM<br/>Bahan : KELLY<br/>Ukuran : S ~ XL<br/>Berat : 600 gram<br/>Info Lainnya = SARIMBIT DENGAN RYR 015<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -246,8 +246,8 @@ Jual Busana Muslim / Koko / Batik Pria - RYR 010 Murah,ryr-010,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/ryr-010.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RYR 010,Rp 131.900,Rp 151.900,Rp 20.000,RYR 010,Baru
-Jual Busana Muslim / Koko / Batik Pria - RGS 075 Murah,rgs-075,"
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan KELLY, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/ryr-016.jpg,-/-,-/-,-/-,-/-,-/-,Sarimbit Casual Pria - RYR 016,Rp 166.900,Rp 136.900,Rp 150.900,RYR 016,Baru
+Jual Koko Casual Pria - RYR 007 Murah,ryr-007,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -272,7 +272,7 @@ Jual Busana Muslim / Koko / Batik Pria - RGS 075 Murah,rgs-075,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -295,7 +295,7 @@ Jual Busana Muslim / Koko / Batik Pria - RGS 075 Murah,rgs-075,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RGS 075 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RGS 075<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Koko Casual Pria - RYR 007 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RYR 007<br/>Warna : CREAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -308,8 +308,8 @@ Jual Busana Muslim / Koko / Batik Pria - RGS 075 Murah,rgs-075,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rgs-075.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RGS 075,Rp 140.900,Rp 162.900,Rp 22.000,RGS 075,Baru
-Jual Busana Muslim / Koko / Batik Pria - RDH 050 Murah,rdh-050,"
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna CREAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/ryr-007.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RYR 007,Rp 166.900,Rp 136.900,Rp 150.900,RYR 007,Baru
+Jual Baju Koko Lengan Pendek Pria - RDH 053 Murah,rdh-053,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -334,7 +334,7 @@ Jual Busana Muslim / Koko / Batik Pria - RDH 050 Murah,rdh-050,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -357,7 +357,7 @@ Jual Busana Muslim / Koko / Batik Pria - RDH 050 Murah,rdh-050,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RDH 050 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RDH 050<br/>Warna : BIRU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Baju Koko Lengan Pendek Pria - RDH 053 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDH 053<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -370,8 +370,8 @@ Jual Busana Muslim / Koko / Batik Pria - RDH 050 Murah,rdh-050,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rdh-050.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RDH 050,Rp 129.900,Rp 149.900,Rp 20.000,RDH 050,Baru
-Jual Busana Muslim / Koko / Batik Pria - RNK 003 Murah,rnk-003,"
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rdh-053.jpg,-/-,-/-,-/-,-/-,-/-,Baju Koko Lengan Pendek Pria - RDH 053,Rp 152.900,Rp 124.900,Rp 137.900,RDH 053,Baru
+Jual Koko Casual Pria - RYR 020 Murah,ryr-020,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -396,7 +396,7 @@ Jual Busana Muslim / Koko / Batik Pria - RNK 003 Murah,rnk-003,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -419,7 +419,7 @@ Jual Busana Muslim / Koko / Batik Pria - RNK 003 Murah,rnk-003,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Busana Muslim / Koko / Batik Pria - RNK 003 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Pria ini terbuat dari bahan COTTON.<br/>Kode : RNK 003<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Koko Casual Pria - RYR 020 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RYR 020<br/>Warna : MARUN<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -432,4 +432,500 @@ Jual Busana Muslim / Koko / Batik Pria - RNK 003 Murah,rnk-003,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rnk-003.jpg,-/-,-/-,-/-,-/-,-/-,Busana Muslim / Koko / Batik Pria - RNK 003,Rp 121.900,Rp 140.900,Rp 19.000,RNK 003,Baru
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna MARUN, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/ryr-020.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RYR 020,Rp 175.900,Rp 144.900,Rp 158.900,RYR 020,Baru
+Jual Koko Casual Pria - RYR 010 Murah,ryr-010,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RYR 010 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RYR 010<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna ABU ABU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/ryr-010.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RYR 010,Rp 174.900,Rp 142.900,Rp 157.900,RYR 010,Baru
+Jual Koko Casual Pria - RDH 050 Murah,rdh-050,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RDH 050 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDH 050<br/>Warna : BIRU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna BIRU KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rdh-050.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RDH 050,Rp 168.900,Rp 137.900,Rp 151.900,RDH 050,Baru
+Jual Koko Casual Pria - RNK 003 Murah,rnk-003,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RNK 003 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RNK 003<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rnk-003.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RNK 003,Rp 157.900,Rp 128.900,Rp 141.900,RNK 003,Baru
+Jual Gamis Casual Pria - RGS 085 Murah,rgs-085,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Gamis Casual Pria - RGS 085 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 085<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : M ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna HITAM, Size M ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-085.jpg,-/-,-/-,-/-,-/-,-/-,Gamis Casual Pria - RGS 085,Rp 239.900,Rp 196.900,Rp 216.900,RGS 085,Baru
+Jual Koko Casual Pria - RGS 090 Murah,rgs-090,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RGS 090 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 090<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : M ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = KOKO STELAN<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna ABU ABU, Size M ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-090.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RGS 090,Rp 239.900,Rp 196.900,Rp 216.900,RGS 090,Baru
+Jual Koko Casual Pria - RGS 089 Murah,rgs-089,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RGS 089 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 089<br/>Warna : UNGU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna UNGU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-089.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RGS 089,Rp 187.900,Rp 153.900,Rp 169.900,RGS 089,Baru
+Jual Koko Casual Pria - RDH 058 Murah,rdh-058,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RDH 058 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RDH 058<br/>Warna : PUTIH KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna PUTIH KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rdh-058.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RDH 058,Rp 148.900,Rp 120.900,Rp 133.900,RDH 058,Baru
+Jual Koko Casual Pria - RGS 075 Murah,rgs-075,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Koko Casual Pria - RGS 075 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RGS 075<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,pakaian-muslim-pria,raindoz,pakaian-muslim-pria,raindoz,"Pakaian Muslim Pria Bahan COTTON, Warna ABU ABU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rgs-075.jpg,-/-,-/-,-/-,-/-,-/-,Koko Casual Pria - RGS 075,Rp 187.900,Rp 153.900,Rp 169.900,RGS 075,Baru
